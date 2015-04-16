@@ -12,11 +12,11 @@
     $password_match = 0;
     $email_match = 0;
     $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $root = "root";
+    $pass = "";
     $dbname = "forum_account";
     // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
+    $conn = new mysqli($servername, $root, $pass, $dbname);
     // Check connection
     
     if ($conn->connect_error) {

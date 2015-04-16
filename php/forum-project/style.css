@@ -53,6 +53,9 @@ input:valid{
 	border-radius: 2px;
 	border: thin solid #C0C0C0;
 	height: 25px;
+	width: 200px;
+	-webkit-box-shadow: 2px 2px;
+	box-shadow: 2px 2px;
 	}
 	
 .login_box, .register_box{
@@ -104,4 +107,21 @@ input[type="submit"]:hover{
 .keterangan{
 	color: #C0C0C0;
 	font-style: italic;
+	}
+	
+.info_box{
+	text-align: center;
+	border: thin solid #F3F3F3;
+	border-radius: 10px;
+	-webkit-box-shadow: 2px 2px 0px #DBDBDB;
+	box-shadow: 2px 2px 0px #DBDBDB;
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	width: 500px;
+	height: 140px;
+	font-family: "Microsoft YaHei Light";
+	padding-left: 50px;
+	padding-right: 50px;
 	}
