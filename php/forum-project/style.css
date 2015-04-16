@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#login{
+	font-family: "Microsoft YaHei Light";
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	width: 280px;
+	}
+	
+#register{
+	margin-top: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	width: 280px;
+	}
+	
+#login p{
+	font-family: "Microsoft YaHei Light";
+	}
+
+input:required{
+	background:#FFEBA7
+	}
+
+input:invalid{
+	background:#FF9596
+	}
+	
+input:valid{
+	background:#ADFFBB
+	}	
+	
+#login input[type="text"], #login input[type="password"], #register input[type="email"], #login textarea{
+	font-family: "Microsoft YaHei Light";
+	border-radius: 2px;
+	height: 30px;
+	border: thin solid #C0C0C0;
+	}
+		
+#register p{
+	font-family: "Microsoft YaHei Light";
+	font-size: small;
+	}
+	
+#register input[type="text"], #register input[type="password"], #register input[type="email"], #register textarea{
+	font-family: "Microsoft YaHei Light";
+	border-radius: 2px;
+	border: thin solid #C0C0C0;
+	height: 25px;
+	}
+	
+.login_box, .register_box{
+	text-align: left;
+	border: thin solid #F3F3F3;
+	border-radius: 10px;
+	-webkit-box-shadow: 2px 2px 0px #DBDBDB;
+	box-shadow: 2px 2px 0px #DBDBDB;
+	position: absolute;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 50px;
+	}
+
+input[type="submit"]{
+	border: 1px none #FFFFFF;
+	background-color: #FF5E61;
+	color: #FFFFFF;
+	font-family: "Microsoft YaHei Light";
+	height: 40px;
+	width: 100px;
+	}
+	
+input[type="submit"]:hover{
+	border: 1px none #FFFFFF;
+	background-color: #AC3D3F;
+	color: #FFFFFF;
+	font-family: "Microsoft YaHei Light";
+	height: 40px;
+	width: 100px;
+	}
+
+.register_button{
+	border: 1px none #FFFFFF;
+	background-color: #52BAFF;
+	color: #FFFFFF;
+	font-family: "Microsoft YaHei Light";
+	height: 40px;
+	width: 100px !important;
+	}
+	
+.register_button:hover{
+	border: 1px none #FFFFFF;
+	background-color: #3A87BB;
+	color: #FFFFFF;
+	font-family: "Microsoft YaHei Light";
+	}
+	
+.keterangan{
+	color: #C0C0C0;
+	font-style: italic;
+	}
